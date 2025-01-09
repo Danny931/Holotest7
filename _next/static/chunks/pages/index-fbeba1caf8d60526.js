@@ -2336,13 +2336,13 @@
           image:
             "https://hologramxyz.s3.amazonaws.com/assets/images/lootbox-event/lootbox-banner.png",
           name: "lootbox-banner",
-          path: "/holoskins",
+          path: "/",
         },
         {
           image:
             "https://hologramxyz.s3.amazonaws.com/assets/images/pudgy-event/pudgy-banner.png",
           name: "pudgy-banner",
-          path: "/pudgypenguins",
+          path: "/",
         },
       ];
       var K = (e) => {
@@ -2478,7 +2478,7 @@
             eV = () =>
               X(void 0, void 0, void 0, function* () {
                 let e = yield fetch(
-                    "/api/characters?sortBy=trending&page=0&pageSize=18",
+                    "/api/characters?sortBy=trending&page=0&pageSize=4",
                     {
                       method: "GET",
                       headers: { "Content-Type": "application/json" },

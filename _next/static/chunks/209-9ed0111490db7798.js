@@ -225,46 +225,10 @@
                     }),
                     (0, r.jsxs)("div", {
                       className:
-                        "group/discord flex w-full cursor-pointer flex-row items-center justify-start",
-                      onClick: () => window.open(v, "_blank"),
-                      onMouseEnter: () => g("discord"),
-                      onMouseLeave: () => g(""),
-                      children: [
-                        (0, r.jsx)(n.h, {
-                          "aria-label": "discord mode",
-                          variant: "ghost",
-                          height: "56px",
-                          className: "!pl-2",
-                          _hover: { bg: "none" },
-                          icon:
-                            "discord" === m
-                              ? (0, r.jsx)("img", {
-                                  src: (0, l.r)(a).discord.hover,
-                                  alt: "discord mode",
-                                })
-                              : (0, r.jsx)("img", {
-                                  src: (0, l.r)(a).discord.default,
-                                  alt: "discord mode",
-                                }),
-                          onClick: () => {
-                            window.open(v, "_blank");
-                          },
-                        }),
-                        (0, r.jsx)("div", {
-                          className: o()({
-                            "subheading-sm-xss md:subheading-sm-xs pl-3 capitalize leading-[16.8px] group-hover:visible dark:text-white md:invisible":
-                              !0,
-                          }),
-                          children: "Discord",
-                        }),
-                      ],
-                    }),
-                    (0, r.jsxs)("div", {
-                      className:
                         "group/twitter flex w-full cursor-pointer flex-row items-center justify-start",
                       onClick: () => {
                         window.open(
-                          "/",
+                          "https://x.com/SLWR_AI",
                           "_blank"
                         );
                       },
@@ -289,7 +253,7 @@
                                 }),
                           onClick: () => {
                             window.open(
-                              "/",
+                              "https://x.com/SLWR_AI",
                               "_blank"
                             );
                           },
@@ -300,6 +264,42 @@
                               !0,
                           }),
                           children: "Twitter",
+                        }),
+                      ],
+                    }),
+                    (0, r.jsxs)("div", {
+                      className:
+                        "group/telegram flex w-full cursor-pointer flex-row items-center justify-start",
+                      onClick: () => window.open(v, "_blank"),
+                      onMouseEnter: () => g("telegram"),
+                      onMouseLeave: () => g(""),
+                      children: [
+                        (0, r.jsx)(n.h, {
+                          "aria-label": "telegram mode",
+                          variant: "ghost",
+                          height: "56px",
+                          className: "!pl-2",
+                          _hover: { bg: "none" },
+                          icon:
+                            "telegram" === m
+                              ? (0, r.jsx)("img", {
+                                  src: (0, l.r)(a).discord.hover,
+                                  alt: "telegram mode",
+                                })
+                              : (0, r.jsx)("img", {
+                                  src: (0, l.r)(a).discord.default,
+                                  alt: "telegram mode",
+                                }),
+                          onClick: () => {
+                            window.open(v, "_blank");
+                          },
+                        }),
+                        (0, r.jsx)("div", {
+                          className: o()({
+                            "subheading-sm-xss md:subheading-sm-xs pl-3 capitalize leading-[16.8px] group-hover:visible dark:text-white md:invisible":
+                              !0,
+                          }),
+                          children: "Telegram",
                         }),
                       ],
                     }),
