@@ -547,36 +547,6 @@
                                   : (0, a.jsxs)("div", {
                                       className: "flex items-center",
                                       children: [
-                                        (0, a.jsx)("img", {
-                                          src: "/icons/upgrade/upgrade.svg",
-                                          alt: "upgrade",
-                                          className: "mr-1 h-6 w-6",
-                                        }),
-                                        (0, a.jsx)("button", {
-                                          onClick: () => x(),
-                                          className:
-                                            "text-gradient subheading-lg-sm uppercase",
-                                          children: "Upgrade",
-                                        }),
-                                        (0, a.jsx)("div", {
-                                          className:
-                                            "mx-2 h-[2px] w-6 rotate-90 rounded-full bg-secondary-700",
-                                        }),
-                                        (0, a.jsx)("button", {
-                                          className:
-                                            "subheading-lg-sm group cursor-pointer rounded-full bg-[linear-gradient(to_right,_#15DCE8,_#64DFC7,_#8AE09C,_#DBEE72)] p-[2px] uppercase",
-                                          onClick: x,
-                                          children: (0, a.jsx)("div", {
-                                            className:
-                                              "subheading-lg-xs group flex items-center rounded-full bg-secondary-800 px-4 py-2 uppercase",
-                                            children: (0, a.jsx)("span", {
-                                              className: m()(
-                                                "text-white group-hover:bg-[linear-gradient(to_right,_#15DCE8,_#64DFC7,_#8AE09C,_#DBEE72)] group-hover:bg-clip-text group-hover:text-transparent"
-                                              ),
-                                              children: "Login",
-                                            }),
-                                          }),
-                                        }),
                                       ],
                                     }),
                               })

@@ -1700,7 +1700,7 @@
                               },
                               children: [
                                 (0, i.jsx)("span", {
-                                  children: "Create Agent",
+                                  children: "Join IDO",
                                 }),
                                 X && (0, i.jsx)(Z.Z, { className: "h-4 w-4" }),
                               ],

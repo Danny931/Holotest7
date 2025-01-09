@@ -2716,22 +2716,6 @@
                           className: "hidden md:block",
                           children: [
                             (0, a.jsx)("div", {
-                              className: "my-10 flex w-full ",
-                              children:
-                                n.length > 0 &&
-                                (0, a.jsx)(
-                                  V,
-                                  {
-                                    title: "Featured",
-                                    characters: n,
-                                    setDisplayedModalCharacter: eA,
-                                    setIsAdminModalOpen: eC,
-                                    // onSelectCharacter: (e, t) => eq(e, t),
-                                  },
-                                  "Featured"
-                                ),
-                            }),
-                            (0, a.jsx)("div", {
                               className: "my-10 flex w-full",
                               children:
                                 v.length > 0 &&
@@ -2749,6 +2733,22 @@
                                   "Market Wizards"
                                 ),
                             }),
+                            (0, a.jsx)("div", {
+                              className: "my-10 flex w-full ",
+                              children:
+                                n.length > 0 &&
+                                (0, a.jsx)(
+                                  V,
+                                  {
+                                    title: "Featured",
+                                    characters: n,
+                                    setDisplayedModalCharacter: eA,
+                                    setIsAdminModalOpen: eC,
+                                    // onSelectCharacter: (e, t) => eq(e, t),
+                                  },
+                                  "Featured"
+                                ),
+                            }),
                           ],
                         }),
                       (0, a.jsxs)("div", {
@@ -2758,7 +2758,7 @@
                             className:
                               "my-10 flex w-full items-center justify-center text-sm text-gray-500",
                             children: (0, a.jsx)("a", {
-                              href: "/privacy-policy",
+                              href: "/",
                               className: "hover:underline",
                               children: "Privacy Policy",
                             }),
