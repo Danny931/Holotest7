@@ -2728,7 +2728,7 @@
                                     characters: v,
                                     setDisplayedModalCharacter: eA,
                                     setIsAdminModalOpen: eC,
-                                    onSelectCharacter: (e, t) => eq(e, t),
+                                    // onSelectCharacter: (e, t) => eq(e, t),
                                   },
                                   "Market Wizards"
                                 ),

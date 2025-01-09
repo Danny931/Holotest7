@@ -521,7 +521,7 @@
                     (0, i.jsx)("button", {
                       className:
                         "subheading-lg-md flex h-14 w-[200px] items-center justify-center rounded-full bg-black leading-[24px] -tracking-[0.4px] text-white ",
-                      onClick: t,
+                      // onClick: t,
                       children: "Launch",
                     }),
                   ],
