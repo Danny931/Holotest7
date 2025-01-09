@@ -1087,14 +1087,14 @@
                                 children: [
                                   "premium" === z &&
                                     (0, n.jsx)(g.bD, {
-                                      text: "Holoworld ".concat(z, " Plan"),
+                                      text: "SlwrAi ".concat(z, " Plan"),
                                       color1: "#08EDDF",
                                       color2: "#8AE09C",
                                       color3: "#CEED8B",
                                     }),
                                   "elite" === z &&
                                     (0, n.jsx)(g.bD, {
-                                      text: "Holoworld ".concat(z, " Plan"),
+                                      text: "SlwrAi ".concat(z, " Plan"),
                                       color1: "#FFE791",
                                       color3: "#FFCF24",
                                       direction: "bg-gradient-to-tl",

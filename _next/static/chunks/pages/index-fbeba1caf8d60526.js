@@ -418,42 +418,6 @@
                   (0, a.jsxs)("div", {
                     className: "flex w-full items-center justify-between",
                     children: [
-                      (0, a.jsx)(I.Z, {
-                        character: c,
-                        ownerId: c.ownerId,
-                        ownerImage:
-                          null === (s = null == c ? void 0 : c.owner) ||
-                          void 0 === s
-                            ? void 0
-                            : s.image,
-                        planId:
-                          null === (l = null == c ? void 0 : c.owner) ||
-                          void 0 === l
-                            ? void 0
-                            : l.planId,
-                        username:
-                          null === (n = null == c ? void 0 : c.owner) ||
-                          void 0 === n
-                            ? void 0
-                            : n.username,
-                      }),
-                      (0, a.jsxs)("div", {
-                        className: "flex h-full items-center",
-                        children: [
-                          (0, a.jsx)("img", {
-                            src: "/icons/chat-bg-white.svg",
-                            alt: "chat-icon",
-                            className: "mr-1 h-4 w-4",
-                          }),
-                          (0, a.jsx)("span", {
-                            className:
-                              "subheading-lg-xss text-secondary-default dark:text-secondary-200",
-                            children: c.chatsCount
-                              ? (0, C.pw)(c.chatsCount)
-                              : "0",
-                          }),
-                        ],
-                      }),
                     ],
                   }),
                   (0, a.jsxs)("div", {
@@ -2334,16 +2298,10 @@
       let q = [
         {
           image:
-            "https://hologramxyz.s3.amazonaws.com/assets/images/lootbox-event/lootbox-banner.png",
+            "/img/lootbox-banner.png",
           name: "lootbox-banner",
           path: "/",
-        },
-        {
-          image:
-            "https://hologramxyz.s3.amazonaws.com/assets/images/pudgy-event/pudgy-banner.png",
-          name: "pudgy-banner",
-          path: "/",
-        },
+        }
       ];
       var K = (e) => {
           var t, s, l;
@@ -2768,7 +2726,7 @@
                                     characters: n,
                                     setDisplayedModalCharacter: eA,
                                     setIsAdminModalOpen: eC,
-                                    onSelectCharacter: (e, t) => eq(e, t),
+                                    // onSelectCharacter: (e, t) => eq(e, t),
                                   },
                                   "Featured"
                                 ),

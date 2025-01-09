@@ -306,7 +306,7 @@
                           passHref: !0,
                           children: (0, a.jsx)("img", {
                             src: "/img/logo-white.svg",
-                            alt: "Holoworld Logo",
+                            alt: "SlwrAi Logo",
                             className: " h-6 w-auto",
                           }),
                         }),

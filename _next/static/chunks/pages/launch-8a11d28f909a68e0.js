@@ -510,7 +510,7 @@
                     (0, i.jsx)("div", {
                       className:
                         "mb-3 text-center text-[18px]  font-extrabold text-black sm:text-[40px]",
-                      children: "Welcome to Holoworld",
+                      children: "Welcome to SlwrAi",
                     }),
                     (0, i.jsx)("div", {
                       className:
@@ -534,7 +534,7 @@
           (0, i.jsx)("div", {
             className:
               "subheading-sm-xs mt-[100px] h-[112px] text-center text-secondary-500 ",
-            children: "Copyright \xa9 2024 Holoworld\xae. All rights reserved.",
+            children: "Copyright \xa9 2024 SlwrAi\xae. All rights reserved.",
           }),
         v = s(36641),
         y = s(57954),
@@ -545,7 +545,7 @@
           question: "What is the vision?",
           answer: (0, i.jsx)(i.Fragment, {
             children:
-              "The next Hollywood or Disney won't emerge from a boardroom of media executives, but from the creative minds of today's digital natives. Armed with nothing more than smartphones and imagination, a new generation of creators is redefining storytelling through pseudonymous accounts and short-form videos. Yet not everyone has the personality or appearance widely accepted for stardom, nor access to massive production budgets. These barriers are to be shattered in Holoworld, enabling anyone the power to tell their own story - with or without a camera.",
+              "The next Hollywood or Disney won't emerge from a boardroom of media executives, but from the creative minds of today's digital natives. Armed with nothing more than smartphones and imagination, a new generation of creators is redefining storytelling through pseudonymous accounts and short-form videos. Yet not everyone has the personality or appearance widely accepted for stardom, nor access to massive production budgets. These barriers are to be shattered in SlwrAi, enabling anyone the power to tell their own story - with or without a camera.",
           }),
         },
         {
