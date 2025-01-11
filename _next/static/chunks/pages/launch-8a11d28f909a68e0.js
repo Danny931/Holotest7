@@ -2,7 +2,7 @@
   [788],
   {
     68786: function (e, t, s) {
-      (window.__NEXT_P = window.__NEXT_P || []).push([
+      (window.__NEXT_P = window.__NEXT_P || []).push([f
         "/launch",
         function () {
           return s(91278);
@@ -1696,7 +1696,7 @@
                               className:
                                 "subheading-lg-md flex h-14 w-[318px] items-center justify-center space-x-2 rounded-full bg-primary-default leading-[24px] -tracking-[0.4px] text-secondary-800 hover:bg-primary-200 sm:w-[200px]",
                               onClick: () => {
-                                window.location.href = "https://ido.SlwrAi.pro"; // 替换为你想跳转的链接
+                                window.location.href = "https://ido.smileai.pro"; // 替换为你想跳转的链接
                               },
                               children: [
                                 (0, i.jsx)("span", {
