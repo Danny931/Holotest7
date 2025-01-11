@@ -418,42 +418,6 @@
                   (0, a.jsxs)("div", {
                     className: "flex w-full items-center justify-between",
                     children: [
-                      (0, a.jsx)(I.Z, {
-                        character: c,
-                        ownerId: c.ownerId,
-                        ownerImage:
-                          null === (s = null == c ? void 0 : c.owner) ||
-                          void 0 === s
-                            ? void 0
-                            : s.image,
-                        planId:
-                          null === (l = null == c ? void 0 : c.owner) ||
-                          void 0 === l
-                            ? void 0
-                            : l.planId,
-                        username:
-                          null === (n = null == c ? void 0 : c.owner) ||
-                          void 0 === n
-                            ? void 0
-                            : n.username,
-                      }),
-                      (0, a.jsxs)("div", {
-                        className: "flex h-full items-center",
-                        children: [
-                          (0, a.jsx)("img", {
-                            src: "/icons/chat-bg-white.svg",
-                            alt: "chat-icon",
-                            className: "mr-1 h-4 w-4",
-                          }),
-                          (0, a.jsx)("span", {
-                            className:
-                              "subheading-lg-xss text-secondary-default dark:text-secondary-200",
-                            children: c.chatsCount
-                              ? (0, C.pw)(c.chatsCount)
-                              : "0",
-                          }),
-                        ],
-                      }),
                     ],
                   }),
                   (0, a.jsxs)("div", {
@@ -2334,16 +2298,10 @@
       let q = [
         {
           image:
-            "https://hologramxyz.s3.amazonaws.com/assets/images/lootbox-event/lootbox-banner.png",
+            "/img/lootbox-banner.png",
           name: "lootbox-banner",
-          path: "/holoskins",
-        },
-        {
-          image:
-            "https://hologramxyz.s3.amazonaws.com/assets/images/pudgy-event/pudgy-banner.png",
-          name: "pudgy-banner",
-          path: "/pudgypenguins",
-        },
+          path: "/",
+        }
       ];
       var K = (e) => {
           var t, s, l;
@@ -2387,7 +2345,7 @@
             {
               holoUser: R,
               isAuthenticated: T,
-              // login: D,
+              login: D,
               refreshHoloUser: z,
             } = (0, i.a)(),
             {
@@ -2478,7 +2436,7 @@
             eV = () =>
               X(void 0, void 0, void 0, function* () {
                 let e = yield fetch(
-                    "/api/characters?sortBy=trending&page=0&pageSize=18",
+                    "/api/characters?sortBy=trending&page=0&pageSize=4",
                     {
                       method: "GET",
                       headers: { "Content-Type": "application/json" },
@@ -2758,22 +2716,6 @@
                           className: "hidden md:block",
                           children: [
                             (0, a.jsx)("div", {
-                              className: "my-10 flex w-full ",
-                              children:
-                                n.length > 0 &&
-                                (0, a.jsx)(
-                                  V,
-                                  {
-                                    title: "Featured",
-                                    characters: n,
-                                    setDisplayedModalCharacter: eA,
-                                    setIsAdminModalOpen: eC,
-                                    onSelectCharacter: (e, t) => eq(e, t),
-                                  },
-                                  "Featured"
-                                ),
-                            }),
-                            (0, a.jsx)("div", {
                               className: "my-10 flex w-full",
                               children:
                                 v.length > 0 &&
@@ -2786,213 +2728,37 @@
                                     characters: v,
                                     setDisplayedModalCharacter: eA,
                                     setIsAdminModalOpen: eC,
-                                    onSelectCharacter: (e, t) => eq(e, t),
+                                    // onSelectCharacter: (e, t) => eq(e, t),
                                   },
                                   "Market Wizards"
                                 ),
                             }),
-                            (!R ||
-                              (null == R ? void 0 : R.nsfwPreference) !== !1) &&
-                              (0, a.jsx)("div", {
-                                className: "my-5 flex w-full",
-                                children:
-                                  g.length > 0 &&
-                                  (0, a.jsx)(
-                                    V,
-                                    {
-                                      title: "Roleplay / Companions",
-                                      description:
-                                        "Build relationships with your favorite companions. Immerse into your favorite fantasies.",
-                                      characters: g,
-                                      setDisplayedModalCharacter: eA,
-                                      setIsAdminModalOpen: eC,
-                                      onSelectCharacter: (e, t) => eq(e, t),
-                                    },
-                                    "Roleplay"
-                                  ),
-                              }),
+                            (0, a.jsx)("div", {
+                              className: "my-10 flex w-full ",
+                              children:
+                                n.length > 0 &&
+                                (0, a.jsx)(
+                                  V,
+                                  {
+                                    title: "Featured",
+                                    characters: n,
+                                    setDisplayedModalCharacter: eA,
+                                    setIsAdminModalOpen: eC,
+                                    // onSelectCharacter: (e, t) => eq(e, t),
+                                  },
+                                  "Featured"
+                                ),
+                            }),
                           ],
                         }),
-                      (0, a.jsx)("div", {
-                        className: E()(
-                          "hidden items-center md:flex",
-                          eZ ? "mb-5 mt-7" : "mb-10 mt-5"
-                        ),
-                        children: eZ
-                          ? (0, a.jsx)("p", {
-                              ref: ee,
-                              className:
-                                "heading-sm-lg uppercase leading-[26.4px] dark:text-secondary-200",
-                              children: "Explore",
-                            })
-                          : (0, a.jsxs)("div", {
-                              className: "hidden md:flex md:w-full ",
-                              children: [
-                                (0, a.jsxs)("div", {
-                                  ref: et,
-                                  className:
-                                    "relative inline-block min-w-[165px] text-left",
-                                  children: [
-                                    (0, a.jsx)("div", {
-                                      children: (0, a.jsxs)("button", {
-                                        className: E()(
-                                          "subheading-sm-sm inline-flex w-full justify-center bg-blackAlpha-300  px-4 py-1 text-secondary-200 shadow-sm hover:bg-whiteAlpha-300 focus:outline-none ",
-                                          eP
-                                            ? "rounded-t-[14px]"
-                                            : "rounded-[10000px]"
-                                        ),
-                                        onClick: () => e_(!eP),
-                                        children: [
-                                          (0, a.jsxs)("p", {
-                                            className: "font-normal",
-                                            children: [
-                                              "Sort by:",
-                                              (0, a.jsxs)("span", {
-                                                className: "font-semibold",
-                                                children: [" ", er.name],
-                                              }),
-                                            ],
-                                          }),
-                                          (0, a.jsx)("div", {
-                                            className: "ml-2",
-                                            children: (0, a.jsx)(u.A, {
-                                              className: "!text-sm",
-                                            }),
-                                          }),
-                                        ],
-                                      }),
-                                    }),
-                                    eP &&
-                                      (0, a.jsx)("div", {
-                                        className:
-                                          "absolute z-10 w-full rounded-b-[14px] bg-blackAlpha-300 shadow-lg backdrop-blur-2xl",
-                                        children: (0, a.jsx)("div", {
-                                          role: "menu",
-                                          "aria-orientation": "vertical",
-                                          "aria-labelledby": "options-menu",
-                                          children: (es.type === y.Ru.DISCOVER
-                                            ? N.filter(
-                                                (e) =>
-                                                  e.availableIn ===
-                                                    y.Ru.DISCOVER &&
-                                                  e.type !== er.type
-                                              )
-                                            : es.type === y.Ru.MY_CREATIONS
-                                            ? N.filter(
-                                                (e) =>
-                                                  e.availableIn ===
-                                                    y.Ru.MY_CREATIONS &&
-                                                  e.type !== er.type
-                                              )
-                                            : void 0
-                                          ).map((e, t) =>
-                                            (0, a.jsx)(
-                                              "div",
-                                              {
-                                                onClick: () => eY(e),
-                                                className: E()(
-                                                  "subheading-sm-sm block cursor-pointer px-4 py-2  text-secondary-200 hover:bg-whiteAlpha-300 ",
-                                                  t + 1 === N.length - 1
-                                                    ? "rounded-b-[14px]"
-                                                    : ""
-                                                ),
-                                                children: e.name,
-                                              },
-                                              t
-                                            )
-                                          ),
-                                        }),
-                                      }),
-                                  ],
-                                }),
-                                en &&
-                                  (0, a.jsx)(p, {
-                                    text: en.name,
-                                    onClose: () => ei(null),
-                                  }),
-                              ],
-                            }),
-                      }),
                       (0, a.jsxs)("div", {
                         className: "h-full w-full",
                         children: [
-                          em
-                            ? (0, a.jsx)(P, { count: 18 })
-                            : (0, a.jsxs)("div", {
-                                className:
-                                  "relative mb-20 grid h-auto w-full grid-cols-1 gap-4 pb-32 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6",
-                                children: [
-                                  ef.map((e, t) => {
-                                    e.featured > ew && eN(e.featured);
-                                    let s = (0, A.TB)(e, R);
-                                    return (0, a.jsxs)(
-                                      "div",
-                                      {
-                                        className: "relative",
-                                        children: [
-                                          (0, a.jsx)(
-                                            O,
-                                            {
-                                              character: e,
-                                              onSelect: () => eq(e, s),
-                                              isBlurred: s,
-                                            },
-                                            "".concat(e.id, "_").concat(t)
-                                          ),
-                                          (null == R ? void 0 : R.role) ===
-                                            y.i4.ADMIN &&
-                                            (0, a.jsx)(d.z, {
-                                              variant: "ghost",
-                                              style: {
-                                                position: "absolute",
-                                                top: "4px",
-                                                left: "0px",
-                                              },
-                                              _hover: {},
-                                              color: "white",
-                                              onClick: (t) => {
-                                                t.stopPropagation(),
-                                                  J(e),
-                                                  eC(!0);
-                                              },
-                                              children: (0, a.jsx)("img", {
-                                                src: "/icons/setting-white.svg",
-                                                alt: "settings mode",
-                                              }),
-                                            }),
-                                        ],
-                                      },
-                                      "".concat(e.id, "_").concat(t)
-                                    );
-                                  }),
-                                  0 !== ef.length &&
-                                    ef.length !== eg - 18 &&
-                                    (0, a.jsx)(k, {
-                                      pageToFetch: eb,
-                                      fetchMoreCharacters: (e) =>
-                                        X(void 0, void 0, void 0, function* () {
-                                          if (void 0 === e) return;
-                                          let t = er.type.toString(),
-                                            s = en
-                                              ? en.type.toString()
-                                              : void 0,
-                                            { characters: a, nextPage: r } =
-                                              yield eU(e, 18, {
-                                                sortBy: t,
-                                                tag: s,
-                                                search: eo || void 0,
-                                              });
-                                          if (void 0 !== a)
-                                            return ev((e) => [...e, ...a]), r;
-                                        }),
-                                    }),
-                                ],
-                              }),
                           (0, a.jsx)("div", {
                             className:
                               "my-10 flex w-full items-center justify-center text-sm text-gray-500",
                             children: (0, a.jsx)("a", {
-                              href: "/privacy-policy",
+                              href: "/",
                               className: "hover:underline",
                               children: "Privacy Policy",
                             }),
@@ -3018,36 +2784,6 @@
                         }),
                       }),
                     }),
-                  (0, a.jsx)("div", {
-                    className: "hidden md:block",
-                    children: (0, a.jsxs)("button", {
-                      onClick: () => {
-                        S.push("/create");
-                      },
-                      className:
-                        "group fixed bottom-[40px] z-30 flex items-center justify-between gap-3 rounded-2xl bg-secondary-300/60 px-5 py-2 ring-8 ring-whiteAlpha-300 dark:bg-black",
-                      children: [
-                        (0, a.jsx)(b(), {
-                          src: "/icons/create-character.svg",
-                          alt: "create-character-icon",
-                          width: 36,
-                          height: 36,
-                        }),
-                        (0, a.jsx)("span", {
-                          className:
-                            "subheading-sm-sm text-center leading-[17px] text-[#44525C] dark:text-white",
-                          children: "Create Character",
-                        }),
-                        (0, a.jsx)("p", {
-                          className:
-                            "subheading-sm-sm flex h-7 w-[58px] items-center justify-center rounded-[44.317px] bg-white/[0.36] uppercase text-secondary-800 group-hover:bg-primary-default dark:border dark:border-primary-default dark:bg-inherit dark:text-primary-default dark:group-hover:text-secondary-800",
-                          children: "GO",
-                        }),
-                      ],
-                    }),
-                  }),
-                  F &&
-                    (0, a.jsx)("div", {}),
                 ],
               }),
               F &&
