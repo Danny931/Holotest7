@@ -16,7 +16,7 @@
         c = s(11163),
         l = s(21850),
         d = s(21003),
-        v = "https://discord.gg/uP3hGWQh8b",
+        v = "https://t.me/Smile_AIGROUP",
         h = s(44175),
         u = (e) => {
           let { lightMode: a } = e,
@@ -228,7 +228,7 @@
                         "group/twitter flex w-full cursor-pointer flex-row items-center justify-start",
                       onClick: () => {
                         window.open(
-                          "https://x.com/SLWR_AI",
+                          "https://x.com/_SmileAI",
                           "_blank"
                         );
                       },
@@ -253,7 +253,7 @@
                                 }),
                           onClick: () => {
                             window.open(
-                              "https://x.com/SLWR_AI",
+                              "https://x.com/_SmileAI",
                               "_blank"
                             );
                           },

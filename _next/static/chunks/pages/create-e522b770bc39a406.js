@@ -1076,7 +1076,7 @@
                                     (0, a.jsxs)("button", {
                                       className:
                                         "col-span-2 flex aspect-square h-full w-full flex-col items-center justify-center gap-3 rounded-3xl border border-bordergray bg-black p-2 text-white transition-all duration-200 md:hover:bg-primary-default md:hover:text-black",
-                                      onClick: () => ee(j.Oo.DEFAULT),
+                                      // onClick: () => ee(j.Oo.DEFAULT),
                                       disabled: !L,
                                       children: [
                                         (0, a.jsx)("div", {
@@ -1104,7 +1104,7 @@
                                       (0, a.jsxs)("div", {
                                         className:
                                           "relative col-span-4 flex w-full cursor-pointer items-center space-x-2 rounded-3xl border border-bordergray bg-black p-4 transition-transform duration-200 md:p-6 md:hover:translate-y-[-6px]",
-                                        onClick: () => et(),
+                                        // onClick: () => et(),
                                         children: [
                                           (0, a.jsx)("img", {
                                             className:
@@ -1171,7 +1171,7 @@
                                                   "flex justify-start gap-3 ",
                                                 children: [
                                                   (0, a.jsx)("button", {
-                                                    onClick: et,
+                                                    // onClick: et,
                                                     className: "md:hidden",
                                                     children: (0, a.jsx)(
                                                       k.EditSolidIcon,
@@ -1230,7 +1230,7 @@
                                         (0, a.jsxs)("button", {
                                           className:
                                             "relative flex flex-col items-center rounded-3xl border border-bordergray bg-black p-6 shadow-md transition-transform duration-200 md:hover:-translate-y-2",
-                                          onClick: () => ea(),
+                                          // onClick: () => ea(),
                                           children: [
                                             (0, a.jsxs)("div", {
                                               children: [
@@ -1274,7 +1274,7 @@
                                             {
                                               className:
                                                 "relative flex flex-col items-center rounded-3xl border border-bordergray bg-black p-6 shadow-md transition-transform duration-200 md:hover:-translate-y-2",
-                                              onClick: () => es(e),
+                                              // onClick: () => es(e),
                                               children: [
                                                 (0, a.jsxs)("div", {
                                                   children: [

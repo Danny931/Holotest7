@@ -1664,7 +1664,7 @@
                   children: [
                     (0, i.jsx)("video", {
                       ref: S,
-                      src: "https://hologramxyz.s3.amazonaws.com/assets/mp4/AgentMarketBanner.mp4",
+                      src: "/img/bg.mp4",
                       className: "h-[752px] w-full object-cover opacity-65",
                       autoPlay: !0,
                       muted: !0,

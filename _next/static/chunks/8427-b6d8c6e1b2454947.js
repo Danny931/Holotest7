@@ -120,25 +120,6 @@
                                 ],
                               })
                             : (0, a.jsx)("button", {
-                                onClick: n,
-                                className: m()(
-                                  "group h-6 rounded-full text-xs uppercase text-white",
-                                  l
-                                    ? "border border-gray-800 "
-                                    : "bg-[linear-gradient(to_right,_#15DCE8,_#64DFC7,_#8AE09C,_#DBEE72)] p-[2px]"
-                                ),
-                                children: (0, a.jsx)("div", {
-                                  className: m()(
-                                    "group flex h-5 items-center justify-center rounded-full border px-3 text-xs font-bold uppercase",
-                                    l ? "bg-gray-200 " : "border-0 bg-black"
-                                  ),
-                                  children: (0, a.jsx)("span", {
-                                    className: m()(
-                                      l ? "text-gray-800 " : "text-white "
-                                    ),
-                                    children: "Login",
-                                  }),
-                                }),
                               }),
                         })
                       : (0, a.jsx)("div", {
