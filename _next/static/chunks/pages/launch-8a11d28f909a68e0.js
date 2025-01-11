@@ -2,7 +2,7 @@
   [788],
   {
     68786: function (e, t, s) {
-      (window.__NEXT_P = window.__NEXT_P || []).push([f
+      (window.__NEXT_P = window.__NEXT_P || []).push([
         "/launch",
         function () {
           return s(91278);
